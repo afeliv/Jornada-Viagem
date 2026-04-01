@@ -9,13 +9,20 @@ header {
 
 .logo {
   display: inline-block;
-  width: 68px;
-  height: 64px;
-  margin-bottom: 22px;
+  margin-bottom: 2px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
 }
 
 .navegation-menu {
-    margin-top: 28px;
+    margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display:block;
 }
 
 nav {
