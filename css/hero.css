@@ -1,0 +1,23 @@
+.hero-img {
+  height: 400px;
+  width: 100%;
+  background-image: url(../imgs/hero-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width:768px) {
+    .hero-img {
+    background-image: url(../imgs/hero-tablet.png);
+    background-size: cover;
+    background-position: center;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .hero-img {
+    background-image: url(../imgs/hero-desktop.png);
+    background-size: cover;
+   
+    }
+}
