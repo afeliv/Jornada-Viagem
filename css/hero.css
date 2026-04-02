@@ -6,18 +6,44 @@
   background-position: center;
 }
 
-@media screen and (min-width:768px) {
-    .hero-img {
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
     background-image: url(../imgs/hero-tablet.png);
     background-size: cover;
     background-position: center;
-    }
+  }
+
+  .hero h2 {
+    padding: 88px 60px;
+    margin: 0;
+    font-size: 32px;
+  }
 }
 
-@media screen and (min-width:1024px) {
-    .hero-img {
+@media screen and (min-width: 1024px) {
+  .hero-img {
     background-image: url(../imgs/hero-desktop.png);
     background-size: cover;
-   
-    }
+  }
+
+  .hero h2 {
+    padding: 88px 120px;
+    margin: 0;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero h2 {
+    padding: 88px 160px;
+    margin: 0;
+  }
 }
